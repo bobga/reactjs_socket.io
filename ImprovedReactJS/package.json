@@ -1,0 +1,33 @@
+{
+  "name": "react-highstock",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "highcharts": "6.0.7",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-highcharts": "16.0.2",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "set PORT=4002 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
